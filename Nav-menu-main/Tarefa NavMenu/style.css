@@ -1,0 +1,79 @@
+body 
+{
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    margin-top: -17px;
+    background-color:#16d8c8;
+    text-align: right;
+    color: #fff;
+} 
+
+
+.nav-menu
+{
+    margin-left: -8px;
+    background-color:#000000;
+    width: 101%;
+    height: 60px;
+    
+}
+
+.menu-links ul li
+{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+	position: relative;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+}
+
+.links
+{
+    color: aliceblue;
+    text-decoration: underline 0.15em rgb(rgb(0, 225, 255));
+    transition: text-decoration-color 300ms;
+}
+a:hover {
+    text-decoration-color: rgb(0, 225, 255);
+  }
+
+.logo-menu{
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin: -23px;
+
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:30px;
+    width:270px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+    margin:0px;
+  }
+  
+  #divBusca img{
+    float:left;
+    height: 37px;
+    width: 37px;
+  }
+  
+  #divBusca{
+    border:solid 10px rgba(47, 79, 79, 0.8);
+    border-radius:10px;
+    height:37px;
+    width:400px;
+  }
